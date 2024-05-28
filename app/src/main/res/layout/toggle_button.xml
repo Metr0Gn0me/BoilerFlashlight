@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gold_border"
+    android:padding="16dp"
+    tools:ignore="HardcodedText">
+
+    <FrameLayout
+        android:layout_width="178dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gold_background"
+        android:padding="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/md_theme_secondaryFixed"
+            android:checkable="true"
+            android:text='Flash OFF'
+            android:textColor="@color/md_theme_background" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:text="Time: 00:00:00"
+            android:textColor="@color/md_theme_background"
+            android:textSize="18sp" />
+    </FrameLayout>
+</RelativeLayout>

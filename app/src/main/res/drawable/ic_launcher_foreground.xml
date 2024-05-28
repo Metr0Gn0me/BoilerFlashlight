@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Golden border around the entire icon -->
+    <path
+        android:fillColor="@color/md_theme_primary"
+        android:pathData="M0,0h108v108h-108z M4,4v100h100V4z" />
+
+    <!-- Flashlight body, centered and more cylindrical -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,30c0,-2 5,-3 5,-3s5,1 5,3v46c0,2 -5,3 -5,3s-5,-1 -5,-3V30zM54,38v20M56,38v20M54,84h2"
+        android:strokeWidth="1"
+        android:strokeColor="#000000" />
+
+    <!-- Flashlight beam, rotated 180 degrees and better aligned -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M54,78l-12,20 24,0 -12,-20z" />
+</vector>
